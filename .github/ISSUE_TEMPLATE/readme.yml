@@ -1,0 +1,29 @@
+name: 📄 README
+description: Write the short description for the /projects page
+title: README
+assignees:
+  - rqbazan
+labels:
+  - portfolio
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title used instead of the repo name
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short by fully-customized description
+    validations:
+      required: true
+  - type: textarea
+    id: extra-links
+    attributes:
+      label: Extra Links
+      description: Could be a link to NPM, Figma, or another extra one
+    validations:
+      required: false
